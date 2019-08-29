@@ -30,3 +30,13 @@ Computing PDs takes several hours so you can skip to step3 directly.
 4. Run `classify_dynamic3d.ipynb` and see the accuracy of classification.
 
 ![](./img/acc_dynamic.png)
+
+## Example 3 (PC)
+
+Computing PDs takes several hours so you can skip to step3 directly.
+1. original data are in `data/PC_train`
+2. Run `PD_pc.ipynb` to generate PDs in `PD_pc` folder.
+3. Run Matlab code `main_pc.m` to compute PB of PD. The results are saved in `PB_pc` folder.
+4. Run `classify_pc.ipynb` and see the accuracy of classification.
+
+![](./img/acc_pc.png)

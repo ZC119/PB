@@ -1,4 +1,4 @@
-function[xc,yc,zc,error] = BSplineApproximation_2(xr,yr,zr,h,iteration)
+function[xc,yc,zc,error] = BSplineApproximation(xr,yr,zr,h,iteration)
 %%
 % This function implements LSPIA. Given a collection of points named
 % (xr,yr,zr), and the grid's density, which we call 'share', the iteration
@@ -57,7 +57,7 @@ for i = 1:h
 end
 
 c = max(Lambda);
-mu = 2/c;
+mu = 1/c;
 % Bx_bar = Bx;
 % By_bar = By;
 % 
