@@ -9,6 +9,9 @@ To run the code, we should install some requirements:
 pip install numpy matplotlib scikit-tda tqdm seaborn pandas scikit-learn
 ```
 
+We provide computed PD, PB, PC_train in [Google Drive]()
+
+
 ## Example 1 (toydata)
 
 We support an example of Persistence B-Spline of toydata. It's a simple synthetic toy data set that contained a circle with its radius 0.4, two concentric circles with their radii 0.2 and 0.4, respectively, two disjoint circles with both their radii 0.2, a cluster of points sampled at random in the normal square, and two clusters of points sampled at random separately in two squares with edge length 0,5. All data were sampled in the range of [−0.5, 0.5]^2 on the 2D plane.
@@ -23,7 +26,6 @@ We support an example of Persistence B-Spline of toydata. It's a simple syntheti
 
 ## Example 2 (3d dynamic system)
 
-Computing PDs takes several hours so you can skip to step3 directly.
 1. Run `dynamic_3d.m` in `data` folder to generate original data. 
 2. Run `PD_dynamic.ipynb` to generate PDs in `PD_dynamic3d` folder.
 3. Run Matlab code `main_dynamic3d.m` to compute PB of PD. The results are saved in `PB_dynamic3d` folder.
@@ -33,7 +35,6 @@ Computing PDs takes several hours so you can skip to step3 directly.
 
 ## Example 3 (PC)
 
-Computing PDs takes several hours so you can skip to step3 directly.
 1. original data are in `data/PC_train`
 2. Run `PD_pc.ipynb` to generate PDs in `PD_pc` folder.
 3. Run Matlab code `main_pc.m` to compute PB of PD. The results are saved in `PB_pc` folder.
