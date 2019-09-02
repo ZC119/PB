@@ -9,7 +9,7 @@ To run the code, we should install some requirements:
 pip install numpy matplotlib scikit-tda tqdm seaborn pandas scikit-learn
 ```
 
-We provide computed PD, PB, PC_train in [Google Drive]()
+We provide computed PD, PB, PC_train in [Google Drive](https://drive.google.com/open?id=1ZSCTeISdtYNW3j9e5-wQPigprQScPDoQ)
 
 
 ## Example 1 (toydata)
