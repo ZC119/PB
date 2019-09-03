@@ -103,7 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-PB*
-PD*
 
 data/PC_train
+PD_pc

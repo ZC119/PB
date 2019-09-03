@@ -44,13 +44,23 @@ and (2) performance on two designed randomly generated PD dataset with different
 
 Follow the procedure:
 1. Run `randomPD_test.m` in data folder to generate random PDs with different distribution and density. (Randomly-generated PDs in (1) are given in ./data/randomPD folder.) 
-2. Run `main_RandomPD2PB.m` to compute PBs. Data is in PB_ClassifyrandomPD folder and PB_rPD_Evaluation folder.
+2. Run `RandomPD2PB.m` to compute PBs. Data is in PB_ClassifyrandomPD folder and PB_rPD_Evaluation folder.
 3. Run `classify_randomPD.ipynb` to obtain the classification accuracy in Test (1) and 
 run `classifier_rPD_Evaluation.ipynb` to obtain the results of Test (2).
 
 Experiment in Appendix
+
+## Example 4 (PC)
+
+1. original data are in `data/PC_train`
+2. Run `PD_pc.ipynb` to generate PDs in `PD_pc` folder.
+3. Run Matlab code `main_pc.m` to compute PB of PD. The results are saved in `PB_pc` folder.
+4. Run `classify_pc.ipynb` and see the accuracy of classification.
+
+![](./img/acc_pc.png)
+
 ## Relationship between stable coefficient and the iteration of LSPIA
 
 The randomly-generated PD dataset is in ./data/PD4theorem folder.
 1. Run `iteration_test.m` in data folder to generated PBs.
-2. Run `main_ThmCoefTest.m` to generate iteraion-ratio figure.
+2. Run `ThmCoefTest.m` to generate iteraion-ratio figure.
