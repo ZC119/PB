@@ -12,6 +12,9 @@ pip install numpy matplotlib scikit-tda tqdm seaborn pandas scikit-learn
 Jupyter is required to run the `.ipynb`.
 The `PB_code` folder should be uploaded.
 
+
+
+
 ## Example 1 (toydata)
 
 An example of toydata is provided. It is a simple synthetic toy data set that contains a circle with its radius 0.4, two concentric circles with their radii 0.2 and 0.4, respectively, two disjoint circles with both their radii 0.2, a cluster of points sampled at random in the normal square, and two clusters of points sampled at random separately in two squares with edge length 0,5. All data are sampled in the range of [−0.5, 0.5]^2 on the 2D plane (shown as follows).
@@ -52,8 +55,8 @@ Experiment in Appendix
 
 ## Example 4 (PC)
 
-1. original data are in `data/PC_train`
-2. Run `PD_pc.ipynb` to generate PDs in `PD_pc` folder.
+1. original data are in [Google Drive](https://drive.google.com/open?id=1Ht5xFJ-vX1Xqr_sHt2QFQ8SMHktg50y_). Unzip to `data/PC_train`, 
+2. Run `PD_pc.ipynb` to generate PDs in `PD_pc` folder. We provide them in [Google Drive](https://drive.google.com/open?id=1J8FGHfdtStQBbRqr6toDLjYWZ1QsKXQg).
 3. Run Matlab code `main_pc.m` to compute PB of PD. The results are saved in `PB_pc` folder.
 4. Run `classify_pc.ipynb` and see the accuracy of classification.
 
